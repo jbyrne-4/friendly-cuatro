@@ -1,0 +1,19 @@
+{
+  "models": [
+    {
+      "id": "local-stable-code",
+      "name": "Stable Code (Ollama)",
+      "provider": "ollama",
+      "model": "stable-code"
+    }
+  ],
+  "contextFiles": [
+    "**/*.py",   
+    "!**/node_modules/**",
+    "!**/build/**",
+    "!**/.git/**",
+    "!**/__pycache__/**",
+    "!**/*.log"
+  ],
+  "maxFilesToRead": 100
+}
